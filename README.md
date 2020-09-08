@@ -11,7 +11,8 @@ Next, I used with open to open the csv file in the script and used next to skip 
 Then, I set the total revenue and row counts to zero for the for loop.
 The for loop I made summed up the revenues in the 2nd column (row[1]), added the number of rows, and an if statement determined the change in revenues, then reset the previous month's revenue to the next month.
 after that, calculations were made for the sum, average, max and min, and then used the mos list made earlier to index the month name to the corresponding max and min revenue changes.
-Then, I printed all of the results, and then output a txt file using os.path.join. 
+Then, I printed all of the results, and then output a txt file using os.path.join.
+The ouptut file was misnamed upon committing as OutputPyPoll.txt but it is for the PyBank portion.
 
 ## PyPoll
 
